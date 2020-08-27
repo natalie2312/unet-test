@@ -232,7 +232,7 @@ def step(split, epoch, model, criterion, optimizer, batch_size=1, cuda=False):
 batch_size = 1
 pretrained = False
 # set Cuda = True to enable GPU calculation
-cuda = False
+cuda = True
 start_epoch = 1
 end_epoch = 1000
 lr_decay = 30
